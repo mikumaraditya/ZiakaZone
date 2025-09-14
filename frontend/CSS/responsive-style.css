@@ -1,0 +1,143 @@
+/* .navbar-brand img {
+  max-width: 160px;   
+} */
+@media (max-width:992px) {
+  .nav-item button{
+    margin-top: 8px;
+  }
+}
+@media (max-width:700px) {
+  .home-content{
+    margin-top: 15vh;
+  }
+}
+
+@media (max-width:400px) {
+  .home-content{
+    width: 50vw;
+  }
+}
+
+@media (max-width:654px) {
+  .outer-counter{
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width:650px) {
+  .order-btn-div{
+    margin-top: 0;
+  }
+  .order-btn{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width:668px) {
+  .order-btn,.menubtn{
+    margin-left: 0;
+    
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    width: 120px;
+  }
+}
+
+@media (max-width:1000px) {
+  .aboutus-container{
+    display:block;
+    text-align: center;
+    
+  }
+
+  .bg-1 {
+    width: 85%;      
+    height: auto; 
+  }
+
+  .aboutus-content{
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  
+}
+
+/* Mobile devices (≤ 576px) */
+@media (max-width: 576px) {
+  .testimonial-section {
+    height: auto;         /* let it grow naturally */
+    padding: 0.75rem;
+  }
+
+  .slider {
+    height: auto;         /* prevent content clipping */
+    flex-direction: column;
+  }
+
+  .caption-template {
+    width: 90%;           /* narrower for small screens */
+    padding: 1rem;
+  }
+
+  .caption-template p {
+    font-size: 0.8rem;    /* smaller text */
+  }
+
+  .caption-img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .fa-angle-left, .fa-angle-right {
+    font-size: 1.5rem;    /* smaller arrows */
+    margin: 0 0.5rem;
+  }
+}
+
+/* Tablet devices (≥ 768px and ≤ 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .caption-template {
+    width: 80%;
+    padding: 2rem;
+  }
+
+  .caption-template p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:576px) {
+  .subscribe-section button{
+        margin-left:1rem;
+        margin-right: 0rem;
+  }
+  .subscribe-section input{
+    width: 280px;
+  }
+}
+
+@media (max-width:400px) {
+  .subscribe-section button{
+        margin-left:0.5rem;
+        margin-right: 0rem;
+  }
+  .subscribe-section input{
+    width: 250px;
+  }
+}
+
+@media (max-width:357px) {
+  .subscribe-section button{
+        margin-left:0.5rem;
+        margin-right: 0rem;
+        margin-top: 0.5rem;
+  }
+  .subscribe-section input{
+    width: 90%;
+    
+  }
+}

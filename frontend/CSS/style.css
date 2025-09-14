@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 80px;
+}
+
+/* ul,ol{
+    padding: 0;
+    margin: 0;
+} */
+.nav-item{
+    padding: 0 5vh 0 0;
+}
+
+.nav-link{
+    font-weight: 700;
+    color: #dc3545;
+}
+.btn{
+    font-weight: 700;
+    color: #dc3545;
+}
+.nav-link:hover{
+    color: #a72633;
+}
+.nav-link:active,
+.nav-link:focus
+{
+    color: #b2323f;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+    width: 160px; 
+}
+.navbar-wrapper{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+    -webkit-transition:all 0.3s ease-out ;
+}
+.navbar-toggler:focus{
+    outline: unset;
+    box-shadow: none;
+    border: none;
+}
+
+.section-1{
+    background: url("../IMG/bg-1.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    min-height: 90vh;
+    width: 99vw;
+}
+.home-content{
+    width: 45vw;
+    margin-top: 25vh;
+}
+.home-content h1{
+    color:black;
+    font-weight: 700;
+}
+.home-content p{
+    color: #333333;   
+    font-size: 1rem;
+}
+.order-btn-div{
+    margin-top: 1rem;
+}
+.order-btn{
+    background-color: #dc3545;
+    color: white;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    font-size: 1rem;
+    border-radius: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 400;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */      
+    margin: 1rem auto;
+    /* margin-left: 2rem; */
+}
+.order-btn:hover{
+    background-color: white;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    line-height: 1.5;
+    font-family: 1rem;
+    border-radius: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 400;
+}
+
+.menubtn{
+    margin-left: 2rem;
+}
+
+
+/*
+=========================================
+    Custom Scrollbar
+=========================================
+*/ 
+::-webkit-scrollbar {
+  width: 0.4rem;
+} 
+::-webkit-scrollbar-track {
+  background: white; 
+} 
+::-webkit-scrollbar-thumb {
+  background:#dc3545; 
+} 
+
+
+/*
+=========================================
+    Running Counter
+=========================================
+*/ 
+
+.counter-wrap{
+    color: white;
+}
+
+.counter-container .col p{
+    font-weight: 500;
+}
+
+/*
+=========================================
+    About us Section
+=========================================
+*/ 
+
+.bg-1{
+    width: 32vw;
+    height: auto;
+    border-radius: 5px;
+}
+
+.bg-1:hover{
+    cursor: pointer;
+    box-shadow:  7px 5px 18px #dc3545;
+    transform: scale(1.1);
+
+}
+
+.aboutus-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-content{
+    margin-left: 5rem;
+}
+
+.aboutus-content h2{
+    color: black;
+    font-weight: 700;
+}
+
+.aboutus-content p{
+    color: #333333;   
+    font-size: 1rem;
+}
+
+.learn-more-btn{
+
+    background-color: #dc3545;
+    color: white;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    font-size: 1rem;
+    border-radius: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 400;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */      
+    /* margin: 1rem auto; */
+    /* margin-left: 2rem; */
+
+}
+
+.learn-more-btn:hover{
+
+    background-color: white;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    line-height: 1.5;
+    font-family: 1rem;
+    border-radius: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 400;
+
+}
+
+.bg-2{
+    background: url("../IMG/bg-2.jpg");
+    background-size:cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    
+}
+
+.overlay{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+.bg-2 h3{
+    text-align: center;
+    color: black;
+    padding-top: 2rem;
+}
+
+.bg-2 p{
+    color: #333333;
+    
+    
+}
+
+.bg-2 .learn-more-btn{
+    margin: 2rem auto ;
+    
+}
+
+/*
+=========================================
+    Explore Food Section
+=========================================
+*/ 
+
+#explorefood h2{
+    font-weight: 700;
+}
+.card-img-top{
+    margin: 0.5rem 0;
+    width: 100%;
+    height: auto;
+}
+.card-title{
+    color: #dc3545;
+}
+.food-card{
+    margin: 2rem 0;
+    max-height: auto;
+    min-width: 25vw;
+    background-color: #eff2f5;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.food-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+}
+
+/*
+=========================================
+    Review Section
+=========================================
+*/ 
+.testimonial-section{
+    border-radius: 1rem;
+    padding: 2rem;
+    min-height: 80vh;
+    width: 100%;
+}
+.testimonial-section h2{
+    color: #ffffff;
+    margin-bottom: 1rem;  
+    position: relative;
+    z-index: 3;
+    
+}
+
+.frame{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.slider{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 60vh;
+}
+
+.caption-template{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 3rem;
+    width: 70%;
+    min-height: 30vh;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 0;
+
+}
+.caption-template.active {
+  opacity: 1;
+  z-index: 2;  
+}
+.caption-template.inactive {
+  opacity: 0;
+  z-index: 1;
+}
+
+
+.caption-template p{
+    font-style: italic; 
+    color: #333333; 
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.caption-template h6{
+    color: #dc3545; 
+    font-weight:700 ;
+    margin-bottom: 0;
+
+}
+
+.caption-img{
+    height: 80px;
+    width: 80px;
+    border: 3px solid #dc3545;
+    border-radius: 50%;
+}
+
+.fa-angle-left, .fa-angle-right { 
+    font-size: 2rem; 
+    color: white; 
+    cursor: pointer; 
+    margin: 0 1rem; 
+    transition: transform 0.2s ease; 
+} 
+.fa-angle-left:hover, .fa-angle-right:hover { 
+    transform: scale(1.2); 
+}
+
+/*
+=========================================
+    FAQ Section
+=========================================
+*/ 
+
+#faq {
+  background: #f9fafc;
+  padding: 3rem 1rem;
+}
+#faq h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+}
+#faq h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #dc3545;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+/* .faq-container {
+  margin-bottom: 2rem;
+} */
+
+.faq-content {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.faq-content:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+}
+
+.faq-content h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #dc3545; 
+  margin-bottom: 0.5rem;
+}
+
+.faq-content p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+  margin: 0;
+}
+
+/*
+=========================================
+    Newsletter Section
+=========================================
+*/ 
+
+.news-section h2{
+    color: #a72633;
+}
+.news-section p{
+    color: #555;
+    font-size: .9rem;
+}
+.subscribe-section input{
+    width: 300px;
+    height: 37px;
+    line-height: 1;
+    border-radius: 0.375rem;
+
+}
+.subscribe-section input::placeholder{
+    color: #555;
+}
+
+.subscribe-section button{
+        margin: 0 2rem 0.4rem 3rem;
+}
+.subscribe-section input{
+    padding-left: 7px;
+}
+
+/*
+=========================================
+    Social media Section
+=========================================
+*/ 
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.footer-links li{
+    margin: 1rem;
+    margin-bottom: 0;
+
+}
+.footer-links li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-links li a:hover{
+    text-decoration: underline;
+}
+
+.socialmedia-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialmedia-links li{
+    margin: 1rem;
+    margin-top: .5rem;
+}
+.socialmedia-links li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+}
+.fa-brands:hover{
+    transform:scale(1.4);
+}
+.copyright-para{
+    text-align: center;
+    color: white;
+    padding-bottom: 1rem;
+}
